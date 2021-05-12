@@ -9,4 +9,7 @@ Its a Responsive Appication currentry live on  https://Rekhakumari12.github.io/N
 
 The technologies used are HTML, CSS, Bootstrap, React.js 
 
+![image](https://user-images.githubusercontent.com/60341606/117962437-d8b3be00-b33c-11eb-9cad-e3743e08d76a.png)
+
+
 
