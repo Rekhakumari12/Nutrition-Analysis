@@ -1,0 +1,70 @@
+ let fat = {
+    nQty: nutri ? nutri.FAT.quantity : "0",
+    nUnit: nutri? nutri.FAT.unit : "-",
+    dQty: dailyNutri?dailyNutri.FAT.quantity:"0",
+    dUnit: dailyNutri?dailyNutri.FAT.unit:"-"
+  };
+  let satFat = {
+    nQty: nutri.FASAT.quantity?nutri.FASAT.quantity:"0",
+    nUnit: nutri.FASAT.unit?nutri.FASAT.unit:"-",
+    dQty: dailyNutri.FASAT.quantity,
+    dUnit: dailyNutri.FASAT.unit
+  };
+  let chole = {
+    nQty: nutri.CHOLE.quantity?nutri.CHOLE.quantity:"0",
+    nUnit: nutri.CHOLE.unit?nutri.CHOLE.unit:"-",
+    dQty: dailyNutri.CHOLE.quantity?dailyNutri.CHOLE.quantity:"0",
+    dUnit: dailyNutri.CHOLE.unit?dailyNutri.CHOLE.unit:"-"
+  };
+  let sodium = {
+    nQty: nutri.NA.quantity?nutri.NA.quantity:"0",
+    nUnit: nutri.NA.unit?nutri.NA.unit:"-",
+    dQty: dailyNutri.NA.quantity?dailyNutri.NA.quantity:"0",
+    dUnit: dailyNutri.NA.unit?dailyNutri.NA.unit:"-"
+  };
+  let carbo = {
+    nQty: nutri.CHOCDF.quantity?nutri.CHOCDF.quantity:"0",
+    nUnit: nutri.CHOCDF.unit? nutri.CHOCDF.unit:"-",
+    dQty: dailyNutri.CHOCDF.quantity?dailyNutri.CHOCDF.quantity:"0",
+    dUnit: dailyNutri.CHOCDF.unit?dailyNutri.CHOCDF.unit:"-"
+  };
+  var fiber = {
+    nQty: nutri.FIBTG.quantity?nutri.FIBTG.quantity:"0",
+    nUnit: nutri.FIBTG.unit?nutri.FIBTG.unit:"-",
+    dQty: dailyNutri.FIBTG.quantity?dailyNutri.FIBTG.quantity:"0",
+    dUnit: dailyNutri.FIBTG.unit?dailyNutri.FIBTG.unit:"-"
+  };
+  var suger = {
+    nQty: nutri.SUGAR.quantity?nutri.SUGAR.quantity:"0",
+    nUnit: nutri.SUGAR.unit?nutri.SUGAR.unit:"-"
+  };
+  let protein = {
+    nQty: nutri.PROCNT.quantity?nutri.PROCNT.quantity:"0",
+    nUnit: nutri.PROCNT.unit?nutri.PROCNT.unit:"-",
+    dQty: dailyNutri.PROCNT.quantity?dailyNutri.PROCNT.quantity:"0",
+    dUnit: dailyNutri.PROCNT.unit?dailyNutri.PROCNT.unit:"-"
+  };
+  let vitaminD = {
+    nQty: nutri.VITD.quantity?nutri.VITD.quantity:"0",
+    nUnit: nutri.VITD.unit?nutri.VITD.unit:"-",
+    dQty: dailyNutri.VITD.quantity?dailyNutri.VITD.quantity:"0",
+    dUnit: dailyNutri.VITD.unit?dailyNutri.VITD.unit:"-"
+  };
+  let ca = {
+    nQty: nutri.CA.quantity?nutri.CA.quantity:"0",
+    nUnit: nutri.CA.unit?nutri.CA.unit:"-",
+    dQty: dailyNutri.CA.quantity? dailyNutri.CA.quantity:"0",
+    dUnit: dailyNutri.CA.unit?dailyNutri.CA.unit:"-"
+  };
+  let fe = {
+    nQty: nutri.FE.quantity?nutri.FE.quantity:"0",
+    nUnit: nutri.FE.unit?nutri.FE.unit:"-",
+    dQty: dailyNutri.FE.quantity?dailyNutri.FE.quantity:"0",
+    dUnit: dailyNutri.FE.unit?dailyNutri.FE.unit:"-"
+  };
+  let k = {
+    nQty: nutri.K.quantity?nutri.K.quantity:"0",
+    nUnit: nutri.K.unit?nutri.K.unit:"-",
+    dQty: dailyNutri.K.quantity?dailyNutri.K.quantity:"0",
+    dUnit: dailyNutri.K.unit?dailyNutri.K.unit:"-"
+  }
