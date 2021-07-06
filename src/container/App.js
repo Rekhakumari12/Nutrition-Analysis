@@ -61,6 +61,7 @@ class App extends Component {
         let resp = toSingleObject(values);
         this.setState({resp});
     });
+    console.log("string");
   }
   newRecipe = () => {
     window.location.reload();
