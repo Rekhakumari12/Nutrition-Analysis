@@ -30,8 +30,8 @@ class App extends Component {
       await this.setState({ error: false })
     }, 5000);
   }
-  onSubmit = async() => {
-    await this.error();
+  onSubmit = () => {
+    
     if (this.state.input) {
       this.setState({ analysis: true });
       this.fetchData(this.state.input);
